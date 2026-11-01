@@ -6,7 +6,7 @@
 
 [English](../README.md) · Русский
 
-[Agent Skill](https://agentskills.io), который учит любого ИИ-агента снимать видео моделью **MiniMax H3** на локальном **FreeVideo**: писать промпты в официальном формате H3, выбирать режим, проверять и запускать задания, собирать длинные ролики и проверять результат — на вашей собственной видеокарте.
+[Agent Skill](https://agentskills.io), который учит любого ИИ-агента снимать видео моделью **MiniMax H3** на локальном [**FreeVideo**](https://github.com/FlashML-org/FreeVideo): писать промпты в официальном формате H3, выбирать режим, проверять и запускать задания, собирать длинные ролики и проверять результат — на вашей собственной видеокарте.
 
 ## Что умеет
 
@@ -19,7 +19,7 @@
 
 ## Что нужно
 
-- FreeVideo (локальная студия MiniMax H3 на ComfyUI) с Agent API (`http://127.0.0.1:8188/freevideo/agent/v1`) и файлом токена. О локальном запуске H3: [руководство MiniMax](https://platform.minimax.io/docs/guides/local-deploy-h3.md). Для одних промптов ничего не нужно.
+- [FreeVideo](https://github.com/FlashML-org/FreeVideo) (запускает MiniMax H3 локально, от 8 ГБ видеопамяти) с Agent API (`http://127.0.0.1:8188/freevideo/agent/v1`) и файлом токена. О локальном запуске H3: [руководство MiniMax](https://platform.minimax.io/docs/guides/local-deploy-h3.md). Для одних промптов ничего не нужно.
 - Python 3.10+ для помощника. Любая видеокарта, которую поддерживает FreeVideo; время генерации берётся из `/capabilities` вашей машины.
 
 ## Установка

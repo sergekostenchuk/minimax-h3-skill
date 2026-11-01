@@ -20,6 +20,8 @@
 
 ## Источник 2 — встроенная справка FreeVideo
 
+Проект: https://github.com/FlashML-org/FreeVideo (Apache-2.0).
+
 `GET /freevideo/agent/v1/guide`, `/schema`, `/capabilities` (FreeVideo 0.4.x). Отсюда: уровни качества и `sampling`, LoRA, сетка кадров 17n+5, части и продолжение (`continue_from`, `part_prompts`, `first_frame_reference`), формы `media.first`, субтитры и музыка в многоплановом фильме, правило «новый план по умолчанию», оценка времени. Справка сама ссылается на `h3-prompt-writing` как на основу формата промптов.
 
 ## Источник 3 — практика

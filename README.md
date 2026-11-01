@@ -7,7 +7,7 @@
 
 English · [Русский](docs/README.ru.md)
 
-An [Agent Skill](https://agentskills.io) that teaches any AI coding agent to direct **MiniMax H3** video generation on a local **FreeVideo** install: write prompts in the official H3 format, pick the right mode, plan and submit jobs, build long videos, and check the result — all on your own graphics card.
+An [Agent Skill](https://agentskills.io) that teaches any AI coding agent to direct **MiniMax H3** video generation on a local [**FreeVideo**](https://github.com/FlashML-org/FreeVideo) install: write prompts in the official H3 format, pick the right mode, plan and submit jobs, build long videos, and check the result — all on your own graphics card.
 
 ## What it does
 
@@ -20,7 +20,7 @@ An [Agent Skill](https://agentskills.io) that teaches any AI coding agent to dir
 
 ## Requirements
 
-- FreeVideo (a local MiniMax H3 studio on ComfyUI) running with its Agent API (`http://127.0.0.1:8188/freevideo/agent/v1`) and its bearer-token file. About running H3 locally: [MiniMax local deployment guide](https://platform.minimax.io/docs/guides/local-deploy-h3.md). Writing prompts alone needs nothing.
+- [FreeVideo](https://github.com/FlashML-org/FreeVideo) (runs MiniMax H3 locally, from 8 GB of VRAM) running with its Agent API (`http://127.0.0.1:8188/freevideo/agent/v1`) and its bearer-token file. About running H3 locally: [MiniMax local deployment guide](https://platform.minimax.io/docs/guides/local-deploy-h3.md). Writing prompts alone needs nothing.
 - Python 3.10+ for the helper. Any GPU FreeVideo supports; generation time comes from your machine's `/capabilities`.
 
 ## Install
