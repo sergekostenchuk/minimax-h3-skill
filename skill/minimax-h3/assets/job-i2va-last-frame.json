@@ -1,0 +1,12 @@
+{
+  "kind": "generate",
+  "label": "Rising camera, part 2",
+  "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] 3D CG, cinematic, the shot begins exactly where <Picture 1> ends: the camera is already rising above the coastline at the same steady speed and keeps pedestaling up without slowing. The motion continues at the same speed through the final frame. No subtitles, no on-screen text.\n\noverall_soundscape: A steady high wind fades into a soft airy hush.\n\nnon_diegetic_music: N/A",
+  "seconds": 10,
+  "width": 1344,
+  "height": 768,
+  "quality": "light",
+  "seed": 101,
+  "media": {"first": {"from_job": "j0123456789ab", "frame": "last"}},
+  "release_gpu_after": false
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+*.mp4
+*.mov
+*.png
+!docs/media/*.png
+token
+*.token
+.env

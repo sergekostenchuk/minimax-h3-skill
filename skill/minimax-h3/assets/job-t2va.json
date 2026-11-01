@@ -1,0 +1,9 @@
+{
+  "kind": "generate",
+  "prompt": "integrated_multimodal_description: [Shot 1] A small blue robot waters a plant in a greenhouse. The camera remains still.\n\noverall_soundscape: Soft water and quiet ventilation.\n\nnon_diegetic_music: N/A",
+  "seconds": 5,
+  "width": 1344,
+  "height": 768,
+  "quality": "light",
+  "release_gpu_after": true
+}

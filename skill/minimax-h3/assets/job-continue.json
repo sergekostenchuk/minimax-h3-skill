@@ -1,0 +1,11 @@
+{
+  "kind": "generate",
+  "label": "Same walk, continued",
+  "prompt": "integrated_multimodal_description: [Shot 1] Live-action, cinematic, the same woman keeps walking along the pier at the same pace while the tracking shot follows her from the side; gulls lift off the railing as she passes. No subtitles, no on-screen text.\n\noverall_soundscape: Footsteps on wooden planks, light wind and distant gulls.\n\nnon_diegetic_music: N/A",
+  "seconds": 10,
+  "width": 1344,
+  "height": 768,
+  "quality": "light",
+  "continue_from": {"from_job": "j0123456789ab"},
+  "release_gpu_after": false
+}
